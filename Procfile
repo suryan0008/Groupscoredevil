@@ -1,2 +1,2 @@
-worker: python3 main
+worker: python3 Groupscoredevil
 ps:scale worker=1
