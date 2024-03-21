@@ -1,9 +1,19 @@
 {
-  "name": "groupscoredevil",
+  "name": "scorebot",
   "description": "Telegram bot to manage group game scores",
-  "repository": "https://github.com/suryan008/groupscoredevil",
+  "repository": "https://github.com/suryan008/Groupscoredevil",
   "image": "heroku/python",
   "addons": [
-    "heroku-mongodb"
+    {
+      "plan": "heroku-postgresql",
+      "options": {
+        "version": "12"
+      }
+    }
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
   ]
 }
