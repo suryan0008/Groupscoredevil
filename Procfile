@@ -1,1 +1,1 @@
-worker: python scorebot.py
+worker: python bot.py
