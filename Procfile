@@ -1,2 +1,2 @@
-worker: python3 bot
+worker: python3 main
 ps:scale worker=1
