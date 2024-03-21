@@ -1,0 +1,9 @@
+{
+  "name": "your-telegram-bot",
+  "description": "Telegram bot to manage group game scores",
+  "repository": "https://github.com/suryan008/groupscoredevil",
+  "image": "heroku/python",
+  "addons": [
+    "heroku-mongodb"
+  ]
+}
