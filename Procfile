@@ -1,2 +1,2 @@
-worker: python3 -m Modules/bot.py
+worker: python3 -m bot.py
 ps:scale worker=1
