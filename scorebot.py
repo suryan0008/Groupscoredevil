@@ -223,7 +223,7 @@ def cancel(update, context):
 def main():
 
     ### Add your Telegram Token in the line below provided from BotFather
-    updater = Updater(token= <<6602908396:AAGq6u_Kz_UUkUgpUsHps_xBfCTAYeAuk4E>>, use_context=True)
+    updater = Updater(token= 7106919597:AAEInwr4HGYQT9PNipJC7acL0pWliR-XVYY, use_context=True)
     dispatcher = updater.dispatcher
 
     start_handler = CommandHandler('start', start)
