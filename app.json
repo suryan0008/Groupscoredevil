@@ -1,5 +1,5 @@
 {
-  "name": "your-telegram-bot",
+  "name": "groupscoredevil",
   "description": "Telegram bot to manage group game scores",
   "repository": "https://github.com/suryan008/groupscoredevil",
   "image": "heroku/python",
