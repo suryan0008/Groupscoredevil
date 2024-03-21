@@ -21,7 +21,7 @@ collection = db[MONGO_COLLECTION]
 
 # Define the start function
 def start(update, context):
-    update.message.reply_text('Welcome to the Group Game Score Bot!')
+    update.message.reply_text('Welcome to the devil x score bot!')
 
 
 # Define the function to get the score of a game
@@ -78,14 +78,14 @@ def minus_score(update, context):
 # Function to check if the user is an admin
 def is_admin(user_id):
     # Replace this with your admin user IDs check
-    return user_id in [123456789, 987654321]  # Example admin user IDs
+    return user_id in [6846608545]  # Example admin user IDs
 
 
 # Function to restrict commands to members only
 def restricted(func):
     def wrapper(update, context):
         user_id = update.effective_user.id
-        if user_id not in [123456789, 987654321]:  # Example member user IDs
+        if user_id not in [6929596322]:  # Example member user IDs
             update.message.reply_text("You are not authorized to use this command.")
             return
         return func(update, context)
@@ -94,7 +94,7 @@ def restricted(func):
 
 def main():
     # Create the Updater and pass it your bot's token
-    updater = Updater("YOUR_TELEGRAM_BOT_TOKEN", use_context=True)
+    updater = Updater("7106919597:AAEInwr4HGYQT9PNipJC7acL0pWliR-XVYY", use_context=True)
 
     # Get the dispatcher to register handlers
     dp = updater.dispatcher
